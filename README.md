@@ -36,3 +36,7 @@ this will rebase <BRANCH> against main.
 
 special branch names and a convention on how to work in branches
 
+# cherry-pick Example
+
+- `git cherry-pick`: need to fix this definition
+
