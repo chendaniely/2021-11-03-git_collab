@@ -1,4 +1,4 @@
-# 2021-11-03 git_collab
+# 2021-11-03 Git Collaboration
 
 - `git clone <URL>`: "downloads" the git repostitory <URL> to current directory
     - `git init`: creates git repo in current folder
@@ -7,7 +7,7 @@
 - `git switch <BRANCH>`: move to the <BRANCH>
     - `git checkout <BRANCH>`: "older" way to switch
 
-# branches
+# Branches
 
 - `git log --oneline --graph --all`: shows you the git log with all the branches and history
 - `git switch -c <BRANCH>`: create and switch to <BRANCH> in a single step
@@ -15,3 +15,6 @@
 - pull request: (aka merge request), doing a merge on the remote (e.g., GitHub) interface
     - This is where you do code review
     - PRs will auto update if you push new commits
+
+- `git stash`: makes a temp commit with current changes
+    - `git stash pop`: takes the last stash and re-applies it current state
