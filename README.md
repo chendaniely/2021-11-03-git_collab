@@ -26,3 +26,9 @@
 
 this will rebase <BRANCH> against main.
 
+# Cleanup
+
+- `git fetch --prune`: clean up the git history and remove remote branches that were deleted
+- `git branch -d <BRANCH>`: delete the branch, will fail if branch is not merged
+    - `git branch -D <BRANCH>`: force delete branch
+
