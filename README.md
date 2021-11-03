@@ -7,3 +7,7 @@
 - `git switch <BRANCH>`: move to the <BRANCH>
     - `git checkout <BRANCH>`: "older" way to switch
 
+- `git log --oneline --graph --all`: shows you the git log with all the branches and history
+- pull request: (aka merge request), doing a merge on the remote (e.g., GitHub) interface
+    - This is where you do code review
+
