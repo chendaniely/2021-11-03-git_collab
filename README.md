@@ -8,6 +8,8 @@
     - `git checkout <BRANCH>`: "older" way to switch
 
 - `git log --oneline --graph --all`: shows you the git log with all the branches and history
+- `git switch -c <BRANCH>`: create and switch to <BRANCH> in a single step
+    - `git checkout -b <BRANCH>`: the "older" way
 - pull request: (aka merge request), doing a merge on the remote (e.g., GitHub) interface
     - This is where you do code review
 
