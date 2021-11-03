@@ -32,3 +32,7 @@ this will rebase <BRANCH> against main.
 - `git branch -d <BRANCH>`: delete the branch, will fail if branch is not merged
     - `git branch -D <BRANCH>`: force delete branch
 
+# git flow
+
+special branch names and a convention on how to work in branches
+
