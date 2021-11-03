@@ -39,4 +39,7 @@ special branch names and a convention on how to work in branches
 # cherry pick
 
 - `git cherry-pick <HASH>`: moves hash to current location (like a copy)
+    - `git cherry-pick <HASH>^..<HASH>`: picks all the commits from both sides inclusive
+    - by default it is exclusive left, inclusive right
+    - the ^ makes it inclusive on both sides
 
