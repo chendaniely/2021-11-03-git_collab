@@ -36,3 +36,7 @@ this will rebase <BRANCH> against main.
 
 special branch names and a convention on how to work in branches
 
+# cherry pick
+
+- `git cherry-pick <HASH>`: moves hash to current location (like a copy)
+
