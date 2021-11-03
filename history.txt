@@ -1,0 +1,244 @@
+   39  nano README.md
+   40  git status
+   41  git diff
+   42  explorer .
+   43  nano README.md
+   44  cat README.md
+   45  git diff
+   46  git add README.md
+   47  git status
+   48  git commit -m "define clone and init"
+   49  git status
+   50  git push origin main
+   51  git log
+   52  git log --oneline
+   53  git branch b1
+   54  git status
+   55  git branch -a
+   56  git switch b1
+   57  git status
+   58  git checkout main
+   59  git switch b1
+   60  nano README.md
+   61  git status
+   62  git branch -a
+   63  git status
+   64  git diff
+   65  git add README.md
+   66  git status
+   67  git commit -m "create new branch and move to it"
+   68  cat README.md
+   69  git switch main
+   70  cat README.md
+   71  git log --online
+   72  git log --oneline
+   73  git log --oneline --all
+   74  git log --oneline --all --graph
+   75  git switch b1
+   76  git log --oneline --all --graph
+   77  cat README.md
+   78  git push origin b1
+   79  git log --oneline --graph --all
+   80  git remote -v
+   81  git fetch
+   82  git log --oneline --graph --all
+   83  git switch main
+   84  cat README.md
+   85  git pull origin main
+   86  cat README.md
+   87  git log --oneline --graph --all
+   88  git fetch --prune
+   89  git log --oneline --graph --all
+   90  git branch -d b1
+   91  git log --oneline --graph --all
+   92  # create a new branch, define_branch_terms, edit README for git log --oneline --graph --all, pull request
+   93  git switch -c define_branch_terms
+   94  # git checkout -b define_branch_terms
+   95  git log --oneline --graph --all
+   96  nano README.md
+   97  git status
+   98  git add README.md
+   99  git commit -m "git log and pr"
+  100  git status
+  101  git log --oneline --graph --all
+  102  git push origin define_branch_terms
+  103  nano README.md
+  104  git log --oneline --graph --all
+  105  git status
+  106  git add README.md
+  107  git commit -m "switch -c and checkout -b"
+  108  git log --oneline --graph --all
+  109  git push origin define_branch_terms
+  110  nano README.md
+  111  git status
+  112  git add README.md
+  113  git commit -m "PRs will auto update"
+  114  git push origin define_branch_terms
+  115  git switch main
+  116  git log --online --graph --all
+  117  git log --oneline --graph --all
+  118  git pull origin main
+  119  git log --oneline --graph --all
+  120  git fetch --prune
+  121  git branch -d define_branch_terms
+  122  git log --oneline --graph --all
+  123  git push origin main
+  124  git pull origin maini
+  125  git pull origin main
+  126  git log --oneline --graph --all
+  127  git branch b1 b2
+  128  git branch b2
+  129  git log --oneline --graph --all
+  130  git branch b1
+  131  git log --oneline --graph --all
+  132  git switch b1
+  133  nano README.md
+  134  git status
+  135  git add README.md
+  136  git commit -m "b1 title change"
+  137  nano README.md
+  138  git add README.md
+  139  git commit -m "b1 branch title"
+  140  git log --oneline --graph --all
+  141  git switch b2
+  142  cat README.md
+  143  nano README.md
+  144  git status
+  145  git switch b1
+  146  git log --oneline --graph --all
+  147  git stash
+  148  git log --oneline --graph --all
+  149  git switch b1
+  150  cat README.md
+  151  git switch b2
+  152  cat README.md
+  153  git stash list
+  154  git stash pop
+  155  git stash list
+  156  cat README.md
+  157  nano README.md
+  158  git status
+  159  git diff
+  160  git add README.md
+  161  git commit -m "stashes"
+  162  git status
+  163  git log --online --graph --all
+  164  git log --oneline --graph --all
+  165  git status
+  166  git push origin b2
+  167  git switch b1
+  168*
+  169  git switch main
+  170  git pull origin main
+  171  git log --oneline --graph --all
+  172  git switch b2
+  173  git log --oneline --graph --all
+  174  git rebase main
+  175  git rebase --abort
+  176  git rebase main
+  177  nano README.md
+  178  code README.md
+  179  code README.md
+  180  git status
+  181  cat README.md
+  182  git status
+  183  git add README.md
+  184  git status
+  185  git rebase --continue
+  186  git status
+  187  git log --oneline --graph --all
+  188  nano README.md
+  189  git status
+  190  git diff
+  191  git add README.md
+  192  git commit -m "git rebase steps"
+  193  git log --oneline --graph --all
+  194  git push origin b2
+  195  git push --force origin b2
+  196  git log --oneline --graph --all
+  197  git branch -a
+  198  git log --oneline --graph --all
+  199  git fetch --prune
+  200  git log --oneline --graph --all
+  201  git switch main
+  202  git pull origin main
+  203  git branch -d b1 b2
+  204  git log --oneline --graph --all
+  205  nano README.md
+  206  git status
+  207  git diff
+  208  git add README.md
+  209  git commit -m "cleanup instructions"
+  210  git push origin main
+  211  git log --oneline --graph --all
+  212  git branch oops
+  213  git log --oneline --graph --all
+  214  git switch main
+  215  git reset --hard 0324acf
+  216  git log --oneline --graph --all
+  217  git switch oops
+  218  git push origin oops
+  219  git switch main
+  220  git pull origin main
+  221  git fetch --prune
+  222  git branch -d oops
+  223  git log --oneline --graph --all
+  224  git pull origin main
+  225  git switch -c dev
+  226  git push origin dev
+  227  git switch -c feat_dan_git_flow
+  228  nano README.md
+  229  git add README.md
+  230  git commit -m "git flow"
+  231  git push origin feat_dan_git_flow
+  232  git switch main
+  233  git pull main
+  234  git pull origin main
+  235  git switch dev
+  236  git pull origin dev
+  237  git switch main
+  238  git branch cp_1
+  239  git branch cp_2
+  240  git switch cp_1
+  241  nano README.md
+  242  git add README.md
+  243  git commit -m "draft cp example"
+  244  git switch cp_2
+  245  git add README.md
+  246  nano README.md
+  247  git add README.md
+  248  git commit -m "cherry pick 2 def"
+  249  nano README.md
+  250  git add README.md
+  251  git commit -m "inclusive exclusive"
+  252  git log --oneline --graph --all
+  253  git push origin cp_2
+  254  git swich cp_1
+  255  git switch cp_1
+  256  git push origin cp_1
+  257  git switch main
+  258  git pull origin main
+  259  git log --oneline --graph --all
+  260  git switch -c cp_2_cp
+  261  git cherry-pick 37982c6^..f0277f5
+  262  nano README.md
+  263  git status
+  264  git add README.md
+  265  git status
+  266  git cherry-pick --continue
+  267  cat README.md
+  268  git log --oneline --graph --all
+  269  git push origin cp_2_cp
+  270  git switch main
+  271  git pull origin main
+  272  git rebase -i HEAD~5
+  273  history
+  274  git fetch --prune
+  275  git branch -a
+  276  git branch -d cp_1 cp_2 cp_2_cp feat_dan_git_flow
+  277  git branch -d cp_1 cp_2_cp feat_dan_git_flow
+  278  git log --oneline --graph --all
+  279*
+  280  q
+  281  git status
+  282  history
