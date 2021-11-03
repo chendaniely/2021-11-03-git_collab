@@ -12,4 +12,4 @@
     - `git checkout -b <BRANCH>`: the "older" way
 - pull request: (aka merge request), doing a merge on the remote (e.g., GitHub) interface
     - This is where you do code review
-
+    - PRs will auto update if you push new commits
