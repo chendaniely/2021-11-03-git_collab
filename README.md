@@ -18,3 +18,11 @@
 
 - `git stash`: makes a temp commit with current changes
     - `git stash pop`: takes the last stash and re-applies it current state
+
+# Rebase
+
+1. `git switch <BRANCH>`
+2. `git rebase main`
+
+this will rebase <BRANCH> against main.
+
