@@ -7,6 +7,8 @@
 - `git switch <BRANCH>`: move to the <BRANCH>
     - `git checkout <BRANCH>`: "older" way to switch
 
+# branches
+
 - `git log --oneline --graph --all`: shows you the git log with all the branches and history
 - `git switch -c <BRANCH>`: create and switch to <BRANCH> in a single step
     - `git checkout -b <BRANCH>`: the "older" way
